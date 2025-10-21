@@ -12,23 +12,32 @@ public class StoreRunner {
     System.out.println("----For Cupcake----");
     System.out.println();
 
+    /* input for price
+    */
     System.out.print("Price: ");
     double price = input.nextDouble();
     bella.setPrice(price);
-    
+
+    /* input for quantity
+    */
     System.out.print("Amount: ");
     int quantity = input.nextInt();
     bella.setQuantity(quantity);
 
+    /* input for isSweet
+    */
     System.out.print("Is Sweet?: ");
     boolean isSweet = input.nextBoolean();
     bella.setIsSweet(isSweet);
 
+    /* input for hasSprinkles
+    */
         System.out.print("Has Sprinkles: ");
     boolean hasSprinkles = input.nextBoolean();
     bella.setHasSprinkles(hasSprinkles);
 
-
+/* displays the final results 
+    */
     System.out.println();
     System.out.println("----FINAL----");
     System.out.println();
@@ -39,10 +48,14 @@ public class StoreRunner {
   System.out.println("----For Boba----");
     System.out.println();
 
+    /* input for flavor
+    */
     System.out.print("Flavor: ");
     String flavor = input.next();
     p.setFlavor(flavor);
 
+    /* displays the final results 
+    */
     System.out.println();
     System.out.println("----FINAL----");
     System.out.println();
@@ -54,7 +67,7 @@ public class StoreRunner {
     /** scanner class is closed
   */
 
-    /** differnt value are tested in the constuctors made in eah sub-class
+    /** different value are tested in the constuctors made in eah sub-class
   */
 
     Cupcake b = new Cupcake();

@@ -44,6 +44,11 @@ public class Bakery{
     }
   }
 
+  /* creates what will be displayed once all the information is inputted
+  */
+  
+  
+  
   public String toString(){
   return "Price: " + price + "\nAmount: " + quantity + "\nIs Sweet?: " + isSweet;
     
